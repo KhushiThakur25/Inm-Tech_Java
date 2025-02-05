@@ -17,10 +17,15 @@ class Demo {
         // System.out.println("Hello , this is n :" + n);
         // System.out.println("Pre-decrement : " + --n);
 
-        boolean a = true;
-        boolean b = false;
-        boolean c = true;
-        System.out.println(!b);
+        // boolean a = true;
+        // boolean b = false;
+        // boolean c = true;
+        // System.out.println(!b);
+
+        int a = 5;
+        int b = 6;
+        int s = (a > b) ? a : b;
+        System.out.println("value is greater" + s);
 
     }
 
