@@ -2,8 +2,8 @@ class Demo {
     public static void main(String[] args) {
         int n = 15;
         int studentNumber = 56;
-        System.out.println("Hello , this is n :" + n);
-        System.out.println(studentNumber);
+        // System.out.println("Hello , this is n :" + n);
+        // System.out.println(studentNumber);
         // System.out.println(n + 10);
         // n += 10;
         // System.out.println(n);
@@ -22,10 +22,12 @@ class Demo {
         // boolean c = true;
         // System.out.println(!b);
 
-        int a = 5;
-        int b = 6;
-        int s = (a > b) ? a : b;
-        System.out.println("value is greater" + s);
+        // int a = 5;
+        // int b = 6;
+        // int s = (a > b) ? a : b;
+        // System.out.println("value is greater : " + s);
+
+        System.out.println(6 | 10);
 
     }
 
